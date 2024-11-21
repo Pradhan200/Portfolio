@@ -4,13 +4,3 @@ My name is Pradhan PS, and I am a passionate and driven professional with a Mast
 
 I thrive on solving complex problems and am committed to applying my knowledge to safeguard sensitive information and support organizational security. I aim to pursue an entry-level role in cybersecurity or data analysis, where I can leverage my technical expertise and analytical skills to contribute meaningfully.
 
-## Key Skills and Expertise
-- Big Data Processing (MapReduce, Apache Pig, Spark Streaming)
-- Cybersecurity (Ethical Hacking, Security Testing)
-- Cloud Security and Further Web Programming
-- Strong analytical and problem-solving abilities
-
-## Certifications and Achievements
-- Ethical Hacking and Security Testing – RMIT University
-- Big Data Processing – RMIT University
-- Cloud Security (in progress)
