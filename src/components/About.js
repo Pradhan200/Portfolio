@@ -40,7 +40,7 @@ const About = () => {
             <div className="space-y-6 text-lg text-white/80 leading-relaxed">
               <p>
                 I'm a passionate full-stack and Gen AI developer with a Master's degree in Information Technology from RMIT University. 
-                My journey in technology began when I stsarted to work as a Associate Software Engineer in EY GDS and it has evolved 
+                My journey in technology began when I started to work as a Associate Software Engineer in EY GDS and it has evolved 
                 into a deep love for creating digital solutions that make a difference.
               </p>
               
@@ -102,7 +102,7 @@ const About = () => {
               {/* Profile Picture */}
               <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-white/20 shadow-2xl">
                 <img 
-                  src="./profile.jpg" 
+                  src="https://pradhan200.github.io/Portfolio/profile.jpg" 
                   alt="Pradhan" 
                   className="w-full h-full object-cover"
                   onError={(e) => {
