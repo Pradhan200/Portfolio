@@ -102,7 +102,7 @@ const About = () => {
               {/* Profile Picture */}
               <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-white/20 shadow-2xl">
                 <img 
-                  src="/profile.jpg" 
+                  src="./profile.jpg" 
                   alt="Pradhan" 
                   className="w-full h-full object-cover"
                   onError={(e) => {

@@ -53,7 +53,7 @@ const Header = () => {
           <div className="hover:scale-105 transition-transform duration-300 cursor-pointer">
             <div className="w-12 h-12 md:w-14 md:h-14 rounded-full overflow-hidden border-2 border-gradient-to-r from-blue-400 to-purple-500 shadow-lg bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
               <img 
-                src="/profile.jpg" 
+                src="./profile.jpg" 
                 alt="Pradhan" 
                 className="w-full h-full object-cover"
                 onError={(e) => {
