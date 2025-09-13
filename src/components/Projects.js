@@ -8,6 +8,17 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
+      title: 'BinStalk - Fashion Technology Ecosystem',
+      description: 'A comprehensive fashion technology platform combining AI-powered outfit planning, virtual try-on experiences, smart closet management, and a global fashion marketplace to make fashion shopping more personalized, interactive, and sustainable.',
+      techStack: ['React', 'Firebase', 'AI/ML', 'Computer Vision', 'Web3', 'E-commerce', 'Virtual Try-On'],
+      github: 'https://github.com/juicbox/BinCok.git',
+      live: 'https://binstalk-cdb16.web.app',
+      featured: true,
+      period: 'Dec 2024 – Present',
+      organization: 'Team Collaboration'
+    },
+    {
+      id: 2,
       title: 'LLM-based Privacy Violation Analysis',
       description: 'Research project analyzing privacy violations in Stack Overflow posts using Large Language Models for automated detection and classification.',
       techStack: ['Python', 'LLM', 'NLP', 'Research', 'Data Analysis', 'Privacy Analysis'],
@@ -19,7 +30,7 @@ const Projects = () => {
       organization: 'RMIT Research'
     },
     {
-      id: 2,
+      id: 3,
       title: 'Agentic Email Archive Search & Summarisation',
       description: 'Developed a local RAG system for semantic search and summarization over 50k+ Enron emails with automated data ingestion, cleaning, and retrieval pipeline.',
       techStack: ['Python', 'FAISS', 'Mistral LLM', 'RAG', 'Semantic Search', 'Data Processing'],
@@ -30,7 +41,7 @@ const Projects = () => {
       organization: 'Independent Project'
     },
     {
-      id: 3,
+      id: 4,
       title: 'AI Expense Formatter',
       description: 'AI tool that formats messy expense notes into structured summaries with category breakdown, total calculation, and issue flagging using GPT-3.5.',
       techStack: ['Python', 'OpenAI GPT-3.5', 'Google Sheets', 'Apps Script', 'Make.com', 'OCR', 'Automation'],
@@ -104,6 +115,30 @@ const Projects = () => {
                           <div className="w-full h-full flex items-center justify-center p-8">
                             {project.id === 1 && (
                               <div className="text-center text-white">
+                                <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-pink-500 to-purple-600 rounded-full flex items-center justify-center">
+                                  <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                                  </svg>
+                                </div>
+                                <h3 className="text-xl font-bold mb-2">BinStalk Fashion</h3>
+                                <div className="space-y-2 text-sm">
+                                  <div className="flex items-center justify-center space-x-2">
+                                    <div className="w-2 h-2 bg-pink-400 rounded-full"></div>
+                                    <span>AI Outfit Planning</span>
+                                  </div>
+                                  <div className="flex items-center justify-center space-x-2">
+                                    <div className="w-2 h-2 bg-purple-400 rounded-full"></div>
+                                    <span>Virtual Try-On</span>
+                                  </div>
+                                  <div className="flex items-center justify-center space-x-2">
+                                    <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
+                                    <span>Smart Closet</span>
+                                  </div>
+                                </div>
+                              </div>
+                            )}
+                            {project.id === 2 && (
+                              <div className="text-center text-white">
                                 <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
                                   <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
@@ -126,7 +161,7 @@ const Projects = () => {
                                 </div>
                               </div>
                             )}
-                            {project.id === 2 && (
+                            {project.id === 3 && (
                               <div className="text-center text-white">
                                 <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-green-500 to-blue-600 rounded-full flex items-center justify-center">
                                   <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -150,7 +185,7 @@ const Projects = () => {
                                 </div>
                               </div>
                             )}
-                            {project.id === 3 && (
+                            {project.id === 4 && (
                               <div className="text-center text-white">
                                 <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-orange-500 to-red-600 rounded-full flex items-center justify-center">
                                   <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
