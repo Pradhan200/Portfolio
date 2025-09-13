@@ -6,6 +6,21 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
+      title: 'Volunteer Software Developer',
+      role: 'Frontend Developer',
+      company: 'BinStalk (Fashion Tech Startup)',
+      period: 'Dec 2024 - Present',
+      location: 'Melbourne',
+      achievements: [
+        'Developed and deployed the Post Share functionality, enabling users to share public post links, resulting in a 30% increase in content reach and team testing efficiency.',
+        'Enhanced frontend user experience through layout refactoring and real-time Firestore integration, contributing to smoother UX in early alpha-stage testing.',
+        'Integrated and optimized the Landing Page and SPA Post Viewer, improving initial page load times by ~40% and ensuring clean routing.',
+        'Collaborated on the development of Binstalk\'s AI-powered fashion ecosystem, enabling virtual try-on, smart closet recommendations, and AI outfit planning via integrated web features.'
+      ],
+      techStack: ['React', 'Firebase', 'Firestore', 'AI/ML', 'Frontend Development', 'SPA', 'Real-time Integration']
+    },
+    {
+      id: 2,
       title: 'Associate Software Developer',
       role: 'Full-Stack Developer',
       company: 'Ernst & Young GDS',
@@ -21,7 +36,7 @@ const Experience = () => {
       techStack: ['.NET', 'C#', 'Entity Framework', 'SOLID Principles', 'Agile', 'CRUD Operations']
     },
     {
-      id: 2,
+      id: 3,
       title: 'Software Developer Intern',
       role: 'Backend Developer',
       company: 'Ernst & Young GDS',
@@ -34,7 +49,7 @@ const Experience = () => {
       techStack: ['.NET', 'C#', 'OWASP Security', 'Role-Based Access Control', 'Banking Systems']
     },
     {
-      id: 3,
+      id: 4,
       title: 'AI and Full Stack Head Teacher',
       role: 'Technical Instructor',
       company: 'Code Camp',
